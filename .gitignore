@@ -102,3 +102,34 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+
+*~
+*.py[oc]
+*.pyc
+*.kate-swp
+.~lock.*#
+.#*
+
+# Logs
+logs*
+*.log
+
+# Configs
+.env
+config*
+
+# Data
+data*
+
+# Tests
+/.pytest_cache
+
+# Virtualenv
+/venv
+.python-version
+
+# Pycharm
+.idea/
+
+# Background Info
+background/
